@@ -1,0 +1,72 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.TopBar {
+    width: 100%;
+    background-color: #282c34;
+   padding: 24px 48 px 12 px;
+   text-align: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.TopBar > img {
+    width: 100px; 
+}
+
+.MainContainer{
+    padding: 4% 12%;
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.ProductPreview{
+    width: 50%;
+}
+
+.ProductPreview > img {
+    width: 100%;
+}
+.ProductData{
+    width: 50%;
+    
+}
+
+.ProductTitle{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+  
+}
+
+.ProductDescription{
+    font-size: 20px;
+    color:black;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.SectionHeading{
+    font-size: 30px;
+}
+
+
+.ProductImage{
+    width: 100%;
+    max-width: 80px;
+    border:2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.SelectedProductImage {
+    
+    border: 2px solid teal;
+}
